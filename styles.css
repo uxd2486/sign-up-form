@@ -6,7 +6,31 @@
     font-style: normal;
 }
 
+body {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.left {
+    background-image: url("images/endwalker_poster.png");
+    background-size: cover;
+    background-position: center;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+
 .left p {
     font-family: "finalfantasy", serif;
-    font-size: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-background {
+    align-self: flex-start;
+    margin-top: 35vh;
+    background: rgba(250, 248, 247, .5);
 }
