@@ -34,3 +34,18 @@ body {
     margin-top: 35vh;
     background: rgba(250, 248, 247, .5);
 }
+
+.right {
+    padding-left: 2vw;
+    padding-top: 15vh;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right > p {
+    padding-bottom: 4vw;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+}
