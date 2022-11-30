@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "finalfantasy";
+    src: url("fonts/final-fantasy/optiengeetienne-webfont.woff2") format("woff2"),
+    url("fonts/final-fantasy/optiengeetienne-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.left p {
+    font-family: "finalfantasy", serif;
+    font-size: 30px;
+}
