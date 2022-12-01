@@ -59,4 +59,13 @@ body {
 
 .right > button {
     margin-top: 20px;
+    margin-left: 2vw;
+    margin-bottom: 20px;
+    align-self: flex-start;
+    padding: 12px 30px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #2596be;
+    border-radius: 8px;
+    background-color: #2596be;
 }
