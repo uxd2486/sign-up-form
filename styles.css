@@ -84,7 +84,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 4vw;
+    margin-right: 0;
 }
 
 .form-column * {
@@ -103,6 +103,15 @@ form {
 .form-column input {
     margin-top: 0;
     margin-bottom: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+input:focus {
+    border: 1px solid cornflowerblue;
+    box-shadow: rgba(50, 50, 105, 0.15) 0 2px 5px 0, rgba(0, 0, 0, 0.05) 0 1px 1px 0;
+    outline: none;
 }
 
 .form-column p {
