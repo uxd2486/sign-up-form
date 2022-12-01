@@ -18,8 +18,6 @@ body {
     background-position: center;
     width: 80vw;
     height: 100vh;
-    margin: auto;
-    padding: 0;
     position: relative;
 }
 
@@ -36,16 +34,29 @@ body {
 }
 
 .right {
-    padding-left: 2vw;
     padding-top: 15vh;
-    margin-right: 10vw;
     display: flex;
     flex-direction: column;
+    background-color: #f7f8fa;
 }
 
 .right > p {
+    padding-right: 10vw;
+    padding-left: 2vw;
     padding-bottom: 4vw;
-    font-style: oblique;
-    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
     font-size: 20px;
+    margin: 0;
+}
+
+.form-container {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 3px 0;
+    background-color: white;
+    align-self: stretch;
+    padding: 2vh 2vw;
+}
+
+.right > button {
+    margin-top: 20px;
 }
