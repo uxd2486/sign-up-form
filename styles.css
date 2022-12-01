@@ -40,14 +40,21 @@ body {
     background-color: #f7f8fa;
 }
 
+.right p {
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
 .right > p {
     padding-right: 10vw;
     padding-left: 2vw;
     padding-bottom: 4vw;
-    font-family: Arial, sans-serif;
-    font-weight: bolder;
-    font-size: 20px;
     margin: 0;
+}
+
+#login {
+    font-size: 17px;
 }
 
 .form-container {
