@@ -16,7 +16,7 @@ body {
     background-image: url("images/endwalker_poster.png");
     background-size: cover;
     background-position: center;
-    width: 80vw;
+    width: 110vw;
     height: 100vh;
     position: relative;
 }
@@ -25,11 +25,17 @@ body {
     font-family: "finalfantasy", serif;
     font-size: 50px;
     text-align: center;
+    margin-bottom: 0;
+}
+
+p img {
+    height: 1em;
+    padding-right: 8px;
 }
 
 .text-background {
     align-self: flex-start;
-    margin-top: 35vh;
+    margin-top: 90vh;
     background: rgba(250, 248, 247, .5);
 }
 
@@ -87,6 +93,11 @@ form {
 
 .form-column label {
     margin-bottom: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gray;
 }
 
 .form-column input {
