@@ -20,23 +20,26 @@ body {
     width: 110vw;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .left p {
     font-family: "finalfantasy", serif;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
-    margin-bottom: 0;
+    letter-spacing: 0.07em;
+    margin: 0;
+    padding: 0;
 }
 
 p img {
     height: 1em;
-    padding-right: 8px;
+    padding-right: 12px;
 }
 
 .text-background {
-    align-self: flex-start;
-    margin-top: 90vh;
     background: rgba(250, 248, 247, .5);
 }
 
