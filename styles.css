@@ -138,13 +138,13 @@ input:focus {
 }
 
 input.error {
-    border: 1px solid red;
+    border: 1px solid #f20707;
     box-shadow: rgba(50, 50, 105, 0.15) 0 2px 5px 0, rgba(0, 0, 0, 0.05) 0 1px 1px 0;
     outline: none;
 }
 
 #the-form .pw-no-match {
-    color: red;
+    color: #f20707;
     font-size: 10px;
     margin-top: 1px;
 }
@@ -157,7 +157,12 @@ input.matching {
     border: 1px solid #1262a8;
 }
 
-:link, :visited {
-    color: #1a447e;
+:link {
+    color: #f20707;
+    text-decoration: none;
+}
+
+:visited {
+    color: #1262a8;
     text-decoration: none;
 }
