@@ -9,7 +9,8 @@ function replaceClass(toRemove, toAdd) {
 }
 
 function matchPasswords() {
-    if (password.value === password_confirm.value) {
+    if (password.value === password_confirm.value &&
+        password.value !== "" && password_confirm.value !== "") {
         replaceClass("error", "matching")
         const not_matching = document.querySelector(".pw-no-match")
         const form_column = document.querySelector("form")
