@@ -94,7 +94,7 @@ form {
     margin: 4px;
 }
 
-.form-column label {
+.form-element label {
     margin-bottom: 0;
     font-size: 12px;
     text-transform: uppercase;
@@ -102,7 +102,7 @@ form {
     color: gray;
 }
 
-.form-column input {
+.form-element input {
     margin-top: 0;
     margin-bottom: 10px;
     border: 1px solid #E5E7EB;
@@ -116,8 +116,13 @@ input:focus {
     outline: none;
 }
 
-.form-column p {
+.form-element p {
     margin-bottom: 18px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
 }
 
 .right > button {
