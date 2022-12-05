@@ -154,5 +154,10 @@ input[name="password"] {
 }
 
 input.matching {
-    border: 1px solid limegreen;
+    border: 1px solid #1262a8;
+}
+
+:link, :visited {
+    color: #1a447e;
+    text-decoration: none;
 }
