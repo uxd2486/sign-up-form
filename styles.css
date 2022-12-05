@@ -75,23 +75,22 @@ p img {
 
 form {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.form-column:last-child {
-    margin-top: 44px;
-}
-
-.form-column {
-    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 0;
 }
 
-.form-column * {
-    margin: 4px;
+form p:first-child {
+    margin-bottom: 1vw;
+    margin-top: 0;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row * {
+    margin-right: 2.5vw;
 }
 
 .form-element label {
@@ -107,7 +106,7 @@ form {
     margin-bottom: 10px;
     border: 1px solid #E5E7EB;
     border-radius: 4px;
-    padding: 4px;
+    padding: 6px;
 }
 
 input:focus {
@@ -144,7 +143,7 @@ input.error {
     outline: none;
 }
 
-.form-column .pw-no-match {
+#the-form .pw-no-match {
     color: red;
     font-size: 10px;
     margin-top: 1px;
